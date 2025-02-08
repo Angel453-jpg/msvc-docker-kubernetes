@@ -1,1 +1,7 @@
 
+[submodule "msvc-usuarios"]
+	path = msvc-usuarios
+	url = https://github.com/Angel453-jpg/msvc-usuarios.git
+[submodule "msvc-cursos"]
+	path = msvc-cursos
+	url = https://github.com/Angel453-jpg/msvc-cursos.git
