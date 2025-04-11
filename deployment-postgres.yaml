@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres15
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      role: postgres
+  template:
+    metadata:
+      labels:
+        role: postgres
+    spec:
+      containers:
+        - name: postgres15
+          image: postgres:15-alpine
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: msvc-cursos
+                  key: password
+            - name: POSTGRES_DB
+              valueFrom:
+                configMapKeyRef:
+                  name: msvc-cursos
+                  key: database
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: data-postgres
+      volumes:
+        - name: data-postgres
+          persistentVolumeClaim:
+            claimName: postgres-pvc
+
