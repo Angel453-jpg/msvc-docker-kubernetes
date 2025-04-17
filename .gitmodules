@@ -8,3 +8,6 @@
 [submodule "msvc-gateway-kubernetes"]
 	path = msvc-gateway-kubernetes
 	url = https://github.com/Angel453-jpg/msvc-gateway-kubernetes.git
+[submodule "msvc-gateway"]
+	path = msvc-gateway
+	url = https://github.com/Angel453-jpg/msvc-gateway.git
