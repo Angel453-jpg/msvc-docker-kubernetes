@@ -5,6 +5,3 @@
 [submodule "msvc-cursos"]
 	path = msvc-cursos
 	url = https://github.com/Angel453-jpg/msvc-cursos.git
-[submodule "msvc-gateway-kubernetes"]
-	path = msvc-gateway-kubernetes
-	url = https://github.com/Angel453-jpg/msvc-gateway-kubernetes.git

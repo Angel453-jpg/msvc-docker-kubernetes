@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/msvc-cursos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/msvc-gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/msvc-usuarios" vcs="Git" />
   </component>
 </project>
