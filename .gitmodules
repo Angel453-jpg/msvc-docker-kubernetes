@@ -11,3 +11,6 @@
 [submodule "msvc-gateway"]
 	path = msvc-gateway
 	url = https://github.com/Angel453-jpg/msvc-gateway.git
+[submodule "msvc-oauth-kubernetes"]
+	path = msvc-oauth-kubernetes
+	url = https://github.com/Angel453-jpg/msvc-oauth-kubernetes.git
