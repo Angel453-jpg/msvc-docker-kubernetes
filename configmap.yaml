@@ -9,9 +9,9 @@ data:
   #  username: "root"
   #  password: "angel2389"
   curso_url: "msvc-cursos:8002"
-  msvc-usuarios.yaml: |-
+  application.yaml: |-
     config:
-      texto: "Configurando ambiente por defecto"
+      texto: "Configurando ambiente por defect o"
     ---
     spring:
       config:
